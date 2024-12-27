@@ -1,0 +1,40 @@
+.container{
+    background-color: bisque;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.quiz{
+    height:350px;
+    width:600px;
+    background-color: aquamarine;
+    padding:20px;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+    background-color: darkgray;
+    width:200px;
+    padding:10px;
+    border-radius: 3px;
+}
+li:hover{
+    cursor:pointer;
+    background-color: rgb(174, 134, 183);
+}
+#options{
+    display:flex;
+    flex-direction: column;
+    row-gap:8px;
+}
+#resultscore{
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    cursor:pointer;
+}
